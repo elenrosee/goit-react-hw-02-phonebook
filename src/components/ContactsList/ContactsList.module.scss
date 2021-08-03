@@ -1,0 +1,21 @@
+.contact_list {
+  width: max-content;
+}
+
+.contact_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: rgb(16, 99, 177);
+  color: white;
+  margin-left: 5px;
+  padding: 5px 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
