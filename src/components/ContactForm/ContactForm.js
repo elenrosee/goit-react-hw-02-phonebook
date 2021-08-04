@@ -5,9 +5,9 @@ import styles from "./ContactForm.module.scss";
 
 class ContactForm extends Component {
   state = {
+    id: "",
     name: "",
     number: "",
-    id: "",
   };
 
   inputFormId = uuidv4();
